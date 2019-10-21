@@ -8,12 +8,11 @@ int main(int argc, char *argv[]){
 	resta=n1-n2;
 	multiplicacion=n1*n2;
 	division=n1/n2;
-	printf("la suma es: %.2f\n ",suma);
-	printf("la resta es: %.2f\n",resta);
-	printf("la multiplicacion es: %.2f\n",multiplicacion);
-	printf("la division es: %.2f\n",division);
+	printf("%.2f\n ",suma);
+	printf("%.2f\n",resta);
+	printf("%.2f\n",multiplicacion);
+	printf("%.2f\n",division);
 	
 	
 	return 0;
 }
-
